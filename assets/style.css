@@ -110,8 +110,11 @@ main {
 }
 
 .rowTitle {
+
     width: 22%;
-    font-size: 5rem;
+    font-size: 4.5rem;
+    text-align: end;
+    padding: .5rem;
 }
 
 /* .rowBlock h3 {
@@ -127,13 +130,13 @@ main {
 
 #aboutMe p{
     padding-bottom: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .linkCards{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     border-left: 4px solid var(--darkBlue);
     padding: 2rem;
@@ -149,14 +152,28 @@ main {
     
 }
 
+.cards h4{
+    display: inline-block;
+    font-size: 2rem;
+    color: var(--darkGray);
+    background-color: var(--lightBlue);
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
 .cards:hover {
     box-shadow: 0 0 20px #FF7C56;
 }
 
 
 
-#bigCard{
+#bigCards{
     background-image: url(./Images/markus-spiske-UCbMZ0S-w28-unsplash.jpg);
+    width: 94.5%;
+    height: 30rem;
 }
 
 #smallCards {
