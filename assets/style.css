@@ -40,12 +40,12 @@ header #pageTitle {
     color: var(--darkGray);
     padding-left: 8rem;
     padding-right: 2rem;
-    font-size: 5rem;
+    font-size: 3vw;
 }
 
 .pageLink {
     padding: 4rem;
-    font-size: 2rem;
+    font-size: 1.5vw;
     list-style: none;
 }
 
@@ -75,8 +75,8 @@ header ul a:hover{
 #billboard{
     background-image: url(./Images/sanjeevan-satheeskumar-lHw_YWD6JtU-unsplash.jpg);
     display: flex;
-    height: 25rem;
-    width: 100%;
+    height: 18vw;
+    width: 100vw;
     margin: 0;
     justify-content: right;
     align-items: flex-end;
@@ -92,45 +92,54 @@ header ul a:hover{
     padding-right: 1rem;
     box-sizing: border-box;
     border-radius: 10px 0px;
+    font-size: 1.5vw;
 }
 
 main {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    padding-left: 15rem;
-    width: 85%;
+    flex-wrap: wrap; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
 }
 
 .rowBlock {
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    margin: 5rem 0;
     align-items: flex-start;
+    justify-content: end;
+    /* border-left: 4px solid var(--darkBlue); */
 }
 
-.rowTitle {
-
+/* .rowTitle {
+   
     width: 22%;
     font-size: 4.5rem;
     text-align: end;
     padding: .5rem;
-}
-
-/* .rowBlock h3 {
-    font-size: 5rem;
-    margin-right: 5rem;
 } */
+
+.rowBlock h3 {
+    display: flex;
+    font-size: 2.5vw;
+    margin-right: 5rem;
+    text-align: end;
+    flex-shrink: 1;
+}
 
 #aboutMetext {
     border-left: 4px solid var(--darkBlue);
-    padding: 2rem;
     width: 75%;
 }
 
 #aboutMe p{
+    font-size: 1vw;
+    flex: 0 1 100%;
     padding-bottom: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 
 .linkCards{
@@ -139,22 +148,21 @@ main {
     justify-content: center;
     align-items: center;
     border-left: 4px solid var(--darkBlue);
-    padding: 2rem;
     width: 75%;
 }
 
 
 .cards{
-    margin: 2rem;
+    margin: 2.5%;
     border: 4px solid var(--lightBlue);
-    width: 45%;
-    height: 15rem;
+    width: 40%;
+    height: 10vw;
     
 }
 
 .cards h4{
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5vwrem;
     color: var(--darkGray);
     background-color: var(--lightBlue);
     margin-right: 6rem;
@@ -172,14 +180,15 @@ main {
 
 #bigCards{
     background-image: url(./Images/markus-spiske-UCbMZ0S-w28-unsplash.jpg);
-    width: 94.5%;
-    height: 30rem;
+    width: 90%;
+    height: 20vw;
 }
 
 #smallCards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-size: auto;
 }
 
 
@@ -207,8 +216,8 @@ main {
 }
 
 #contactMe ul {
-    font-size: 3rem;
-    padding: 1rem;
+    font-size: 2vw;
+    padding: 3rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -243,3 +252,4 @@ main {
     border-bottom: 4px solid var(--darkBlue);
     padding-bottom: .5rem;
 }
+
